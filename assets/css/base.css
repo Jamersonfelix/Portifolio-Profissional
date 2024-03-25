@@ -1,0 +1,28 @@
+/* criando a base de cores que serão ultilizada no projeto*/
+:root {
+    --background: #fff;
+    --foreground: #6E07F3;
+    --primary: #141c3a;
+    --primary-light: #cdd3eb;
+    --primary-foreground: #fff;
+    --secondary: #5be8b9;
+    --secondary-foreground: #141c3a;
+}
+/* restuturando o site*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+/* estruturando a fonte que será ultilizado no site*/
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+/* estruturando as dimenções do site*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
