@@ -41,7 +41,7 @@
     }
 }
 
-@media (width < 900px) {
+@media (width > 900px) {
     .recent-work .grid {
         grid-template-columns: repeat(3, 1fr);
     }
